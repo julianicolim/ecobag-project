@@ -41,6 +41,14 @@ img {
   background-color: #172b6f;
   display: inline-block;
 }
+.menu a:hover {
+  background-color: #0f1d4a;
+  transition: background-color 0.3s;
+}
+.more:hover {
+  background-color: #0f1d4a;
+  transition: background-color 0.3s;
+}
 h3, p {
   margin: 0;
 }
