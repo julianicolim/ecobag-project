@@ -1,9 +1,9 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  margin: 0px;
+  margin: 0rem;
   display: grid;
   background: #f7f7f7;
-  gap: 20px;
+  gap: 1.25rem;
   justify-items: center;
 }
 
@@ -20,35 +20,41 @@ img {
 .site {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 30px;
-  max-width: 1000px;
+  gap: 1.875rem;
+  max-width: 62.5rem;
 }
 
-.menu {
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  justify-self: center;
-  padding: 20px;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.menu li {
+  display: block;
 }
 
 .menu a {
   text-decoration: none;
   color: white;
   border-radius: 4px;
-  padding: 15px 20px;
+  padding: 0.938rem 1.25rem;
   background-color: #172b6f;
   display: inline-block;
 }
 
 h3,
 p {
-  margin: 0px;
+  margin: 0rem;
 }
 
 .conteudo {
   background: white;
-  padding: 30px;
+  padding: 1.875rem;
   text-align: end;
 }
 
@@ -56,37 +62,37 @@ p {
   text-decoration: none;
   color: white;
   border-radius: 4px;
-  padding: 10px;
+  padding: 0.625rem;
   background-color: #172b6f;
   display: inline-block;
-  margin: 10px;
+  margin: 0.625rem;
 }
 
 .descricao {
-  font-size: 20px;
+  font-size: 1.25rem;
   display: grid;
-  gap: 20px;
+  gap: 1.25rem;
   align-content: center;
-  padding: 100px 20px 100px 20px;
+  padding: 6.25rem 1.25rem 6.25rem 1.25rem;
   background: white;
   color: #172b6f;
 }
 
 .sustentabilidade h3, .sustentabilidade p {
-  padding: 8px;
+  padding: 0.5rem;
 }
 
 .sustentabilidade {
   background: white;
-  padding: 30px;
+  padding: 1.875rem;
 }
 
 .rodape {
   position: relative;
   background: white;
   border: 1px solid #172b6f;
-  padding: 10px;
   margin-bottom: 5px;
+  margin-bottom: 0.313rem;
   text-align: center;
   color: #172b6f;
 }
