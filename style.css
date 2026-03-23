@@ -13,6 +13,7 @@ img {
 .marca {
   padding: 10px;
   color: #172b6f;
+  text-align: center;
 }
 .site {
   display: grid;
