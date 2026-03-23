@@ -1,29 +1,25 @@
 body {
   font-family: "Courier New", Courier, monospace;
-  margin: 0rem;
+  margin: 0;
   display: grid;
   background: #f7f7f7;
   gap: 1.25rem;
   justify-items: center;
 }
-
 img {
   max-width: 100%;
   display: block;
 }
-
 .marca {
   padding: 10px;
   color: #172b6f;
 }
-
 .site {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.875rem;
   max-width: 62.5rem;
 }
-
 .menu ul {
   list-style: none;
   padding: 0;
@@ -33,31 +29,25 @@ img {
   gap: 1.25rem;
   justify-content: center;
 }
-
 .menu li {
   display: block;
 }
-
 .menu a {
   text-decoration: none;
   color: white;
   border-radius: 4px;
-  padding: 0.938rem 1.25rem;
+  padding: 0.9375rem 1.25rem;
   background-color: #172b6f;
   display: inline-block;
 }
-
-h3,
-p {
-  margin: 0rem;
+h3, p {
+  margin: 0;
 }
-
 .conteudo {
   background: white;
   padding: 1.875rem;
   text-align: end;
 }
-
 .more {
   text-decoration: none;
   color: white;
@@ -67,32 +57,27 @@ p {
   display: inline-block;
   margin: 0.625rem;
 }
-
 .descricao {
   font-size: 1.25rem;
   display: grid;
   gap: 1.25rem;
   align-content: center;
-  padding: 6.25rem 1.25rem 6.25rem 1.25rem;
+  padding: 6.25rem 1.25rem;
   background: white;
   color: #172b6f;
 }
-
 .sustentabilidade h3, .sustentabilidade p {
   padding: 0.5rem;
 }
-
 .sustentabilidade {
   background: white;
   padding: 1.875rem;
 }
-
 .rodape {
-  position: relative;
   background: white;
   border: 1px solid #172b6f;
   margin-bottom: 5px;
-  margin-bottom: 0.313rem;
   text-align: center;
   color: #172b6f;
+  padding: 0.625rem;
 }
