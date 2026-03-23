@@ -1,0 +1,92 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0px;
+  display: grid;
+  background: #f7f7f7;
+  gap: 20px;
+  justify-items: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.marca {
+  padding: 10px;
+  color: #172b6f;
+}
+
+.site {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1000px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-self: center;
+  padding: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  padding: 15px 20px;
+  background-color: #172b6f;
+  display: inline-block;
+}
+
+h3,
+p {
+  margin: 0px;
+}
+
+.conteudo {
+  background: white;
+  padding: 30px;
+  text-align: end;
+}
+
+.more {
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #172b6f;
+  display: inline-block;
+  margin: 10px;
+}
+
+.descricao {
+  font-size: 20px;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  padding: 100px 20px 100px 20px;
+  background: white;
+  color: #172b6f;
+}
+
+.sustentabilidade h3, .sustentabilidade p {
+  padding: 8px;
+}
+
+.sustentabilidade {
+  background: white;
+  padding: 30px;
+}
+
+.rodape {
+  position: relative;
+  background: white;
+  border: 1px solid #172b6f;
+  padding: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #172b6f;
+}
